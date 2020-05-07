@@ -1,8 +1,6 @@
 require('http')
 .Server((req, res) => {
-    res.writeHead(200, {
-         'Content-Type': 'application/json; charset=utf-8',
-      });
-    res.end('Zhukov Sergey');
+    res.setHeader('Content-Type','text/html; charset=utf-8')
+    res.end('<h1>Zhukov Sergey</h1>');
  })
 .listen(process.env.PORT);
