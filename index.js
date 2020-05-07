@@ -3,6 +3,6 @@ require('http')
     res.writeHead(200, {
          'Content-Type': 'application/json; charset=utf-8',
       });
-    res.end(document.getElementById("h1").innerHTML = "Zhukov Sergey");
+    res.end('Zhukov Sergey');
  })
 .listen(process.env.PORT);
