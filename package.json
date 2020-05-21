@@ -1,8 +1,5 @@
 {
-  "scripts": {
-     "start": "node index.js"
-  },
   "dependencies": {
-    "moment": "^2.25.3"
+    "moment": "^2.26.0"
   }
 }
